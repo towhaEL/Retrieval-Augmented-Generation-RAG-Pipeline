@@ -1,0 +1,13 @@
+Banking is the business of accepting deposits and granting loans. A bank acts as a financial intermediary between savers and borrowers. It plays a vital role in maintaining economic stability and supporting financial growth.
+
+Commercial Banks accept deposits from individuals and organizations, provide credit facilities, and offer various financial services. Common types of accounts include savings, current, and fixed deposit accounts. Interest rates and liquidity vary by account type.
+
+Central Banks, such as Bangladesh Bank, regulate the money supply, control inflation, and supervise financial institutions. They issue currency, maintain foreign reserves, and act as the lender of last resort.
+
+Lending is a core banking activity. Loans are classified into secured and unsecured types. Banks evaluate creditworthiness through collateral, income, and repayment capacity. Proper loan classification and provisioning ensure financial health and compliance with regulatory standards.
+
+Risk Management in banking involves identifying, assessing, and mitigating financial risks such as credit risk, market risk, and operational risk. Capital adequacy, liquidity ratios, and diversification are essential safeguards.
+
+Digital Banking and FinTech innovations are transforming the banking sector through online platforms, mobile apps, and automated services. These technologies increase accessibility but also introduce cybersecurity challenges.
+
+Sound banking operations depend on transparency, regulatory compliance, and customer trust. Banks must balance profitability with stability and ethical responsibility.

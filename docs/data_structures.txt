@@ -1,0 +1,13 @@
+Data Structures are methods of organizing and storing data in a computer so that it can be accessed and modified efficiently.
+
+A Stack is a linear data structure that follows the Last In First Out (LIFO) principle. Elements are added and removed only from the top. Common operations are push, pop, and peek. Stacks are used in recursion, expression evaluation, and function call management.
+
+A Queue follows the First In First Out (FIFO) principle. Elements are added at the rear and removed from the front. Variants include circular queues, priority queues, and double-ended queues. Queues are widely used in scheduling, buffering, and simulation.
+
+A Linked List is a dynamic data structure consisting of nodes that contain data and a reference to the next node. It supports efficient insertion and deletion but slower random access. Common types are singly linked, doubly linked, and circular linked lists.
+
+A Tree is a hierarchical structure with a root node and child nodes. A Binary Tree has at most two children per node. A Binary Search Tree (BST) maintains elements in sorted order for efficient lookup. Advanced variants include AVL trees, Red-Black trees, and Heaps.
+
+A Graph is a set of vertices connected by edges. It can be directed or undirected, weighted or unweighted. Graphs are fundamental in representing networks, routes, and relationships. Algorithms like Depth First Search (DFS) and Breadth First Search (BFS) are used to explore graphs.
+
+Choosing the right data structure improves performance, memory efficiency, and code clarity. It is a critical step in software design and algorithm optimization.

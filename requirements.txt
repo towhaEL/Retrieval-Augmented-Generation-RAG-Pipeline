@@ -1,0 +1,9 @@
+PyPDF2 
+python-docx 
+Wikipedia-API 
+sentence-transformers 
+chromadb
+python-dotenv
+google-generativeai
+pandas
+numpy
