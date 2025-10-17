@@ -7,7 +7,7 @@ It demonstrates chunking, embedding, retrieval, and generation design choices ta
 
 ## Deliverables
 
-* **Repository/Zip:** Full project folder
+* **Repository:** Full project folder
 * **Language:** Python
 * **Files Included:**
 
