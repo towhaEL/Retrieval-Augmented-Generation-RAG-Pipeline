@@ -28,9 +28,13 @@ It demonstrates chunking, embedding, retrieval, and generation design choices ta
 pip install -r requirements.txt
 ```
 
-### 2. Environment
+### 2. Configure environment
 
-Add your GEMINI API key in `.env` (required by LLM provider).
+Add API keys or environment variables in `.env`:
+
+```
+GOOGLE_API_KEY=your_key_here
+```
 
 ### 3. Run the pipeline
 
@@ -39,6 +43,47 @@ python main.py
 ```
 
 ---
+
+## 🔁 Complete Workflow
+
+### **Step 1 — Data Ingestion**
+
+* Local text, PDF, and DOCX files are read from the **`/docs` folder** using `document_loader.py`.
+* Each document is converted to clean text via appropriate loaders.
+* In parallel, **Wikipedia articles** are fetched using the **`wikipedia-api`** package for specified topics, ensuring up-to-date context.
+
+### **Step 2 — Text Chunking**
+
+* Parsed text is split into manageable overlapping chunks.
+* **Chunk Size:** 512 tokens
+* **Overlap:** 64 tokens
+* This ensures enough context from each section while maintaining retrieval efficiency.
+
+### **Step 3 — Embedding and Storage**
+
+* Each chunk is transformed into vector embeddings using `sentence-transformers/all-MiniLM-L6-v2`.
+* These embeddings are stored in a **Chroma vector database** for fast semantic similarity search.
+
+### **Step 4 — Retrieval**
+
+* When a query is entered, the retriever searches the vector database for the **top-k most similar chunks**.
+* Retrieved text chunks (with sources) are concatenated into a context block.
+
+### **Step 5 — Generation**
+
+* The concatenated context and query are sent to an LLM (gemini-2.5-flash model).
+* The LLM generates an answer.
+
+### **Step 6 — Source Citation and Edge Handling**
+
+* Each final answer includes **source citations** (document names and page numbers or Wikipedia URLs).
+* If no relevant chunks are found, the system gracefully outputs:
+
+  > “Don’t have enough information.”
+
+---
+
+
 
 ## Design Choices
 
