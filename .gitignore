@@ -1,59 +1,9 @@
 # --- Python ---
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
 
 # --- Virtual Environment ---
-venv/
-env/
-.myenv/
 myenv/
-.mvenv/
 .env
-.env.*
-
-# --- IDE / Editor ---
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# --- OS Files ---
-.DS_Store
-Thumbs.db
-
-# --- Logs and Outputs ---
-*.log
-logs/
-*.out
-*.err
-
-# --- Notebooks and Temporary ---
-.ipynb_checkpoints/
-*.checkpoint
-*.bak
 
 # --- Chroma Vector Store ---
 .chroma/
-chroma/
-vectorstore/
-*.db
-
-# --- Dependencies and Build ---
-build/
-dist/
-*.egg-info/
-
-# --- Credentials / Keys ---
-*.json
-*.pem
-*.key
-*.p12
-
-# --- Misc ---
-__cache__/
-.cache/
-tmp/
-temp/
